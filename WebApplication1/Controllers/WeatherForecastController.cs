@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using WebApplication1.Application;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers;
@@ -7,35 +8,17 @@ namespace WebApplication1.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
-    {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
-    private readonly ILogger<WeatherForecastController> _logger;
-
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
-    {
-        _logger = logger;
-    }
-
-    [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<WeatherForecast> Get()
-    {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
-    }
 
     [HttpPut("test/{rule_name}")]
     public async Task<IActionResult> Put(
         [FromBody] BaseRule updatedRule, string rule_name)
     {
         Console.WriteLine(updatedRule.GetType());
+
+        var context = new Context();
+
+        context.demo(updatedRule);
+        
         return Ok(updatedRule);
     }
 }

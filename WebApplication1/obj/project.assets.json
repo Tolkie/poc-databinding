@@ -208,19 +208,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\t.oriol\\.nuget\\packages\\": {}
+    "C:\\Users\\teo_o\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\t.oriol\\Documents\\poc-polymorphic-databinding\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\t.oriol\\Documents\\poc-polymorphic-databinding\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\t.oriol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\t.oriol\\Documents\\poc-polymorphic-databinding\\WebApplication1\\obj\\",
+      "projectPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\teo_o\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\t.oriol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\teo_o\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -267,7 +267,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\t.oriol\\.dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\teo_o\\.dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

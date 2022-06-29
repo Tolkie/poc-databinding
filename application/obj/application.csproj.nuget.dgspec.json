@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\application\\application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\application\\application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\WebApplication1.csproj",
-        "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\application\\application.csproj",
+        "projectName": "application",
+        "projectPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\application\\application.csproj",
         "packagesPath": "C:\\Users\\teo_o\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\teo_o\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,12 +37,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -54,9 +48,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
