@@ -72,6 +72,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/application.dll": {}
+        }
       }
     }
   },
@@ -200,11 +210,17 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "application/1.0.0": {
+      "type": "project",
+      "path": "../application/application.csproj",
+      "msbuildProject": "../application/application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -213,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\WebApplication1.csproj",
-      "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\api\\api.csproj",
+      "projectName": "api",
+      "projectPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\api\\api.csproj",
       "packagesPath": "C:\\Users\\teo_o\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\teo_o\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -231,7 +247,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\application\\application.csproj": {
+              "projectPath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\application\\application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

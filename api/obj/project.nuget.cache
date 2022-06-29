@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4gQGIkGkSUwtUSwfNZhzk3/AVQ5sBo07s7BqgIC8LnEPDZPlJS1iPVOJ4uDWxMaM0vQhAD3WHUQkO20D0WZX7Q==",
+  "dgSpecHash": "lJmvXPBdJ7IcFw4limk+hfBNNX4bLwu1BTzbnfObmnFPeNx57nUsRK/Eloc9qPKObJ2mZmqQD09kV/oSeUp+bA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\teo_o\\Documents\\Dev\\poc-databinding\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\teo_o\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\teo_o\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
